@@ -22,7 +22,7 @@ There are twelve possible combinations of *opts* depending on social security co
 - social security contributions as gross income proportion: 
 `SocialSecurityProportion->*p*`
 - social security contributions in absolute amount: 
-`SocialSecurityAbsoluteAmount->*a*`
+`SocialSecurityAbsoluteAmount->`*`a`*`
 
 Tax credit system can be given as:
 - proportion of initial tax: 
