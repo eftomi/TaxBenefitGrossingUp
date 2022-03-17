@@ -34,6 +34,7 @@ Tax credit system can be given as:
 Tax credit can be ommited from the options if the taxation system 
 does not allow for it.
 
+
 ###Examples
 
 ```
@@ -59,3 +60,22 @@ GrossIncome[28400, 1200, { (* PIT schedule with three brackets *)
    {10000, 40000, 0.20},
    {40000, "-", 0.50}}] ===> 45000.
 ```
+
+```
+NetIncome[10000, 1200, { (* PIT schedule with three brackets *)
+  {0, 20000, 0.15},
+  {20000, 50000, 0.25},
+  {50000, "-", 0.45}},
+ SocialSecurityProportion -> 0.05,
+ TaxCreditInitialPITProportion -> 0.05] ===> 8317.25
+```
+
+```
+GrossIncome[8317.25`, 1200, { (* PIT schedule with three brackets *)
+  {0, 20000, 0.15},
+  {20000, 50000, 0.25},
+  {50000, "-", 0.45}},
+ SocialSecurityProportion -> 0.05,
+ TaxCreditInitialPITProportion -> 0.05] ===> 10000.
+```
+
