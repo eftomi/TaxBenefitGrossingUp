@@ -35,7 +35,7 @@ Tax credit can be ommited from the options if the taxation system
 does not allow for it.
 
 
-###Examples
+### Examples
 
 ```
 NetIncome[45000, 1200, { (* PIT schedule with three brackets *)
