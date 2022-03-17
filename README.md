@@ -10,7 +10,7 @@ Both functions can be called with a similar structure of arguments and options:
 
 *opts* define the arrangement of social security contributions and tax credit in a given computation.
 
-Tax schedule should be provided as a list of tax brackets {{lo, up, marginal rate}, ...} where each tax bracket is defined as a list of its lower and upper margins and the tax rate, for instance:
+Tax schedule should be provided as a list of tax brackets {{*lo*, *up*, *marginal rate*}, ...} where each tax bracket is defined as a list of its lower and upper margins and the tax rate, for instance:
 
 ```
 {{0, 20000, 0.15},
