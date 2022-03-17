@@ -42,7 +42,7 @@ Tax credit can be ommited from the options if the taxation system does not allow
 ### Installation
 
 - Clone or make a local copy of the repository or download the module file [src/TaxBenefitGrossingUp.m](https://github.com/eftomi/TaxBenefitGrossingUp/tree/main/src)
-- Install the TaxBenefitGrossingUp.m package by following the procedure in [Mathematica package installation] (https://support.wolfram.com/5648?src=mathematica)
+- Install the TaxBenefitGrossingUp.m package by following the procedure in [Mathematica package installation](https://support.wolfram.com/5648?src=mathematica)
 
 
 ### Examples
