@@ -10,29 +10,30 @@ Both functions can be called with a similar structure of arguments and options:
 
 Tax schedule should be provided as a list of tax brackets {{lo, up, marginal rate}, ...} where each tax bracket is defined as a list of its lower and upper margins and the tax rate, for instance:
 
-`{{0, 20000, 0.15},
+```
+{{0, 20000, 0.15},
  {20000, 50000, 0.25},
- {50000, "-", 0.45}}`
+ {50000, "-", 0.45}}
+```
 
 Usually, the last bracket has no upper margin, this can be denoted by "-".
 
 There are twelve possible combinations of *opts* depending on social security contribution rules and tax credits system. Social security contributions can be given by:
 - schedule for social security contributions: 
-`SocialSecuritySchedule->{{`*`lo`*`, `*`up`*`, `*`marginal rate`*`}, ...}`
+`SocialSecuritySchedule->{{lo, up, marginal rate}, ...}`
 - social security contributions as gross income proportion: 
-`SocialSecurityProportion->`*`p`*
+`SocialSecurityProportion->p`
 - social security contributions in absolute amount: 
-`SocialSecurityAbsoluteAmount->`*`a`*
+`SocialSecurityAbsoluteAmount->a`
 
 Tax credit system can be given as:
 - proportion of initial tax: 
-`TaxCreditInitialPITProportion->`*`p`*
+`TaxCreditInitialPITProportion->p
 - proportion of gross income: 
-`TaxCreditGrossIncomeProportion->`*`p`*
+`TaxCreditGrossIncomeProportion->p
 - in absolute amount: 
-`TaxCreditAbsoluteAmount->`*`a`*
-Tax credit can be ommited from the options if the taxation system 
-does not allow for it.
+`TaxCreditAbsoluteAmount->a
+Tax credit can be ommited from the options if the taxation system does not allow for it.
 
 
 ### Examples
