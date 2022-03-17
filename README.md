@@ -45,11 +45,7 @@ NetIncome[45000, 1200, { (* PIT schedule with three brackets *)
    Social security schedule with three brackets *)
    {0, 10000, 0.17},
    {10000, 40000, 0.20},
-   {40000, "-", 0.50}}]
-```
-
-```
-28400.
+   {40000, "-", 0.50}}] ===> 28400.
 ```
 
 ```
@@ -61,9 +57,5 @@ GrossIncome[28400, 1200, { (* PIT schedule with three brackets *)
    Social security schedule with three brackets *)
    {0, 10000, 0.17},
    {10000, 40000, 0.20},
-   {40000, "-", 0.50}}]
-```
-
-```
-45000.
+   {40000, "-", 0.50}}] ===> 45000.
 ```
