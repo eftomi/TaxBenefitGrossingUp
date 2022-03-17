@@ -1,6 +1,8 @@
 # TaxBenefitGrossingUp
 
-This Mathematica package allows for gross personal income estimation for individual on the basis of net personal income and relevant personal income tax (PIT) parameters such as tax allowances, PIT schedule, tax credit system, and social security contributions. This is implemented by GrossIncome[] function. The package also provides NetIncome[] function as a reverse to GrossIncome[]. Primary goal of the package is to enable data imputation of gross personal income in microdatabases used in macroeconomic budgetary and sustainability simulations where gross personal income computation is not trivial.
+This Mathematica package allows for gross personal income estimation for individual on the basis of net personal income and relevant personal income tax (PIT) parameters such as tax allowances, PIT schedule, tax credit system, and social security contributions. This is implemented by GrossIncome[] function. The package also provides NetIncome[] function as a reverse to GrossIncome[]. 
+
+Primary goal of the package is to enable data imputation of gross personal income in microdatabases used in macroeconomic budgetary and sustainability simulations where gross personal income computation (grossing up procedure) is not trivial.
 
 Both functions can be called with a similar structure of arguments and options:
 - GrossIncome[*NetIncome*, *TaxAllowancesAmount*, *PersonalIncomeTaxSchedule*, *opts*] gives gross income estimated from a given net income, amount of tax allowances and tax schedule. 
@@ -28,11 +30,11 @@ There are twelve possible combinations of *opts* depending on social security co
 
 Tax credit system can be given as:
 - proportion of initial tax: 
-`TaxCreditInitialPITProportion->p
+`TaxCreditInitialPITProportion->p`
 - proportion of gross income: 
-`TaxCreditGrossIncomeProportion->p
+`TaxCreditGrossIncomeProportion->p`
 - in absolute amount: 
-`TaxCreditAbsoluteAmount->a
+`TaxCreditAbsoluteAmount->a`
 Tax credit can be ommited from the options if the taxation system does not allow for it.
 
 
