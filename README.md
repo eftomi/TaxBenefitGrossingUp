@@ -18,7 +18,7 @@ Usually, the last bracket has no upper margin, this can be denoted by "-".
 
 There are twelve possible combinations of *opts* depending on social security contribution rules and tax credits system. Social security contributions can be given by:
 - schedule for social security contributions: 
-`SocialSecuritySchedule->{{*lo*, *up*, *marginal rate*}, ...}`
+`SocialSecuritySchedule->{{`*`lo`*, `*`up`*, `*`marginal rate`*}, ...}`
 - social security contributions as gross income proportion: 
 `SocialSecurityProportion->`*`p`*
 - social security contributions in absolute amount: 
