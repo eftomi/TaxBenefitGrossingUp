@@ -35,6 +35,7 @@ Tax credit system can be given as:
 `TaxCreditGrossIncomeProportion->p`
 - in absolute amount: 
 `TaxCreditAbsoluteAmount->a`
+
 Tax credit can be ommited from the options if the taxation system does not allow for it.
 
 
