@@ -20,17 +20,17 @@ There are twelve possible combinations of *opts* depending on social security co
 - schedule for social security contributions: 
 `SocialSecuritySchedule->{{*lo*, *up*, *marginal rate*}, ...}`
 - social security contributions as gross income proportion: 
-`SocialSecurityProportion->*p*`
+`SocialSecurityProportion->`*`p`*
 - social security contributions in absolute amount: 
-`SocialSecurityAbsoluteAmount->`*`a`*`
+`SocialSecurityAbsoluteAmount->`*`a`*
 
 Tax credit system can be given as:
 - proportion of initial tax: 
-`TaxCreditInitialPITProportion->*p*`
+`TaxCreditInitialPITProportion->`*`p`*
 - proportion of gross income: 
-`TaxCreditGrossIncomeProportion->*p*`
+`TaxCreditGrossIncomeProportion->`*`p`*
 - in absolute amount: 
-`TaxCreditAbsoluteAmount->*a*`
+`TaxCreditAbsoluteAmount->`*`a`*
 Tax credit can be ommited from the options if the taxation system 
 does not allow for it.
 
