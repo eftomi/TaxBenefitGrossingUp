@@ -38,6 +38,10 @@ Tax credit system can be given as:
 
 Tax credit can be ommited from the options if the taxation system does not allow for it.
 
+### Installation
+
+- Clone the repository or download the module file src/TaxBenefitGrossingUp.m
+- Install the TaxBenefitGrossingUp.m package by following the procedure in [Mathematica package installation] (https://support.wolfram.com/5648?src=mathematica)
 
 ### Examples
 
